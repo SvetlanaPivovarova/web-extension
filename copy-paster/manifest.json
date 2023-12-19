@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Copypaster",
+  "description": "Enable to copy code from stackoverflow",
+  "version": "1.0",
+  "icons": {
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-64.png",
+    "128": "icons/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://stackoverflow.com/*"],
+      "run_at": "document_idle",
+      "all_frames": false,
+      "js": ["content-script.js"]
+    }
+  ],
+  "host_permissions": ["https://stackoverflow.com/*"],
+  "web_accessible_resources": [
+    {
+      "resources": ["content-script.css", "execute.js"],
+      "matches": ["https://stackoverflow.com/*"]
+    }
+  ]
+}
