@@ -1,0 +1,12 @@
+{
+    "/dist/js/popup.js": "/dist/js/popup.js",
+    "/dist/css/popup.css": "/dist/css/popup.css",
+    "/dist/images/et_quote128.png": "/dist/images/et_quote128.png",
+    "/dist/images/et_quote16.png": "/dist/images/et_quote16.png",
+    "/dist/images/et_quote32.png": "/dist/images/et_quote32.png",
+    "/dist/images/et_quote64.png": "/dist/images/et_quote64.png",
+    "/dist/images/revpn-icon-128.png": "/dist/images/revpn-icon-128.png",
+    "/dist/images/revpn-icon-16.png": "/dist/images/revpn-icon-16.png",
+    "/dist/images/revpn-icon-32.png": "/dist/images/revpn-icon-32.png",
+    "/dist/images/revpn-icon-64.png": "/dist/images/revpn-icon-64.png"
+}

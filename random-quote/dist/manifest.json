@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Random Quote",
+  "version": "1.0.0",
+  "description": "Browser extension that fetch a random quote from zenquotes.io",
+  "host_permissions": ["https://zenquotes.io/"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/et_quote16.png",
+    "32": "images/et_quote32.png",
+    "64": "images/et_quote64.png",
+    "128": "images/et_quote128.png"
+  }
+}
