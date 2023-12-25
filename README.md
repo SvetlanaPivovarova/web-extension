@@ -6,6 +6,7 @@
 - reading-time - показывает время чтения статей на ресурсах "https://developer.chrome.com/docs/extensions/*",
   "https://developer.chrome.com/docs/webstore/*"
 - copy-paster - добавляет кнопку Copy на врезки с кодом на ресурсах "https://stackoverflow.com/*", позволяющую копировать код в буфер обмена,
+- focus-mode - скрывает отображение боковой панели (через стили) в активной вкладке сайтов https://developer.chrome.com/docs/extensions, https://developer.chrome.com/docs/webstore (через service-worker)
 
 # Расширения на Vue
 ### random-quote - показывает случайную цитату с сайта: https://zenquotes.io/, создано на Vue (создано по [инструкции](https://javascript.plainenglish.io/how-to-create-vuejs-based-chrome-extension-645d6fe9bf53))
